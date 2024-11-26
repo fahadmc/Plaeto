@@ -1,0 +1,8 @@
+.price-item price-item--regular{
+  letter-spacing: normal !important;
+    font-family: var(--font-family-h2) !important;
+    line-height: clamp(25px, calc(26*(100vw / var(--viewportDesktop))), 27px) !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+    font-size: clamp(17.6px, calc(22*(100vw / var(--viewportDesktop))), calc(22* 1.1px)) !important;
+}
