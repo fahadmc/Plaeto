@@ -22,6 +22,7 @@ function App() {
       {/* <UserContext.Provider value={user}> */}
       
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
 
 
@@ -35,13 +36,7 @@ function App() {
         <Route path="/special offer/" element={<Special/>} />
         <Route path="/mens/:id" element={<Productview/>} />
         <Route path="/womens/:id" element={<Produwomen/>} />
-        
-       
-       
-      
-    
 
-       
       </Routes>
       {/* </UserContext.Provider> */}
     </div>

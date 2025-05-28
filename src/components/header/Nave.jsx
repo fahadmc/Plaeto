@@ -1,14 +1,10 @@
 import React from 'react'
-
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../assets/Logo_Red_1 (1).png'
 import logo1 from '../../assets/download (13).svg'
-import logo2 from '../../assets/download (15).svg'
  import { Link } from "react-router-dom"
 
 import './header.css'
@@ -35,26 +31,6 @@ function Nave() {
             <Nav.Link href="School">SCHOOL</Nav.Link>
             <Nav.Link href="Company"><Link  className='helpl1'  to={"/Company"}> COMPANY </Link></Nav.Link>
             <Nav.Link  href="HELP"><Link  className='helpl1'  to={"/Help"}> HELP </Link></Nav.Link>
-
-            
-           
-          
-
-
-            
-
-            {/* <NavDropdown title="help" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="Help">Help</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown> */}
-
-        
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -71,11 +47,6 @@ function Nave() {
              <Link to={"/Logotp"}>
              <button className='navebtn2'><img src={logo1}/></button>
       </Link>
-
-{/* 
-         <Nav.Link   className='navebtn1'><img src={logo1}/></Nav.Link>
-          
-            <button className='navebtn2'><img src={logo2}/></button> */}
          
         </Navbar.Collapse>
       </Container>
